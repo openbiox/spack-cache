@@ -1,0 +1,10 @@
+{
+  "name": "spack-cache",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:openbiox/spack-cache.git",
+  "author": "lee_jianfeng@openbiox.org",
+  "license": "MIT",
+  "bin": {
+  }
+}
