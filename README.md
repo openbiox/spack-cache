@@ -6,137 +6,211 @@
 
 Packages supported by [spack](https://github.com/spack/spack) are available [here](https://spack.readthedocs.io/en/latest/basic_usage.html#listing-available-packages).
 
-Noteably, all cache files provided in this project (phase1: [weiyun](https://share.weiyun.com/5N0BRKn)) can directly be used by spack to perform downstream installtion steps. If you download all the files in this project, you will be able to deploy several useful data analysis environment locally and offline.
+Noteably, all cache files provided in this project (phase1: [weiyun](https://share.weiyun.com/5l7vgR7)) can directly be used by spack to perform downstream installtion steps. If you download all the files in this project, you will be able to deploy several useful data analysis environment locally and offline.
 
 ```bash
 # 2019-05-21
-abinit                    dealii                 gts              libpfm4                 netcdf                       r
-abyss                     diffutils              guile            libpng                  netcdf-cxx                   r3d
-ack                       dmd                    h5part           libpthread-stubs        netgauge                     racon
-activeharmony             docbook-xml            h5utils          libsigcpp               netgen                       ragel
-acts-core                 docbook-xsl            h5z-zfp          libsigsegv              netlib-scalapack             raja
-adept-utils               double-conversion      hadoop           libsm                   nettle                       randfold
-adios                     doxygen                hapcut2          libsodium               ninja                        random123
-adios2                    dtcmp                  hapdip           libsvm                  node-js                      randrproto
-adlbx                     dyninst                haploview        libtiff                 npm                          range-v3
-adol-c                    eigen                  harfbuzz         libtool                 npth                         rankstr
-aida                      elfutils               hdf              libunistring            nspr                         rapidjson
-albert                    environment-modules    hdf5             libunwind               numactl                      r-assertthat
-alglib                    erfa                   help2man         libuuid                 oce                          ravel
-alsa-lib                  exmcutils              hepmc            libuv                   oniguruma                    raxml
-amg                       exonerate              heppdt           libx11                  openblas                     ray
-amg2013                   expat                  highfive         libxau                  openjdk                      r-base64enc
-ampliconnoise             exuberant-ctags        highwayhash      libxaw                  openjpeg                     r-biocgenerics
-amrex                     fastphase              hiop             libxc                   openmpi                      r-biom-utils
-amrvis                    fastqc                 hisat2           libxcb                  openpa                       rclone
-andi                      fastqvalidator         hisea            libxcomposite           openssl                      r-crayon
-angsd                     fasttree               hmmer            libxdamage              otf                          r-dbi
-ant                       fastx-toolkit          hpctoolkit       libxdmcp                otf2                         rdma-core
-antlr                     fftw                   hpcviewer        libxext                 p4est                        rdp-classifier
-ants                      findutils              hpgmg            libxfixes               pal                          re2c
-applewmproto              fixesproto             hpl              libxft                  paml                         readfq
-appres                    flatbuffers            hpx              libxkbcommon            pandaseq                     readline
-apr                       flex                   hsakmt           libxkbfile              pango                        recordproto
-apr-util                  flux-core              htop             libxml2                 papi                         redis
-aragorn                   flux-sched             htslib           libxmu                  papyrus                      redset
-argobots                  fontcacheproto         httpie           libxpm                  parallel                     rempi
-argp-standalone           fontconfig             hugo             libxrender              parallel-netcdf              rename
-argtable                  fontsproto             hunspell         libxscrnsaver           parmetis                     rendercheck
-armadillo                 fonttosfnt             hwloc            libxshmfence            pbbam                        renderproto
-arm-forge                 font-util              hybpiper         libxslt                 pcre                         r-expint
-arpack-ng                 font-xfree86-type1     hydra            libxt                   pcre2                        rhash
-arrow                     fpc                    hydrogen         libxv                   perl                         rlwrap
-asciidoc                  fqtrim                 hyphy            libxvmc                 perl-capture-tiny            r-rcpp
-asciidoctor               freebayes              hypre            libzip                  perl-data-dumper             r-rjava
-aspcud                    freetype               iceauth          llvm                    perl-encode-locale           r-rmysql
-aspect                    freexl                 icet             llvm-openmp-ompt        perl-exporter-tiny           rsbench
-aspell                    fslsfonts              ico              lmdb                    perl-extutils-makemaker      rsync
-aspell6-de                fstobdf                icu4c            lua                     perl-extutils-pkgconfig      ruby
-aspell6-en                fyba                   id3lib           lua-luaposix            perl-file-copy-recursive     ruby-ronn
-aspell6-es                fzf                    idba             lwgrp                   perl-file-sharedir-install   rust
-aspera-cli                g4abla                 igraph           lz4                     perl-gd                      sailfish
-assimp                    g4emlow                ilmbase          lzo                     perl-gd-graph                salmon
-augustus                  g4ensdfstate           imake            m4                      perl-gdgraph-histogram       samtools
-autoconf                  g4ndl                  imp              mariadb                 perl-gd-text                 scons
-automake                  g4neutronxs            impute2          matio                   perl-http-date               scotch
-axel                      g4photonevaporation    infernal         mercurial               perl-inline                  scrnsaverproto
-bamtools                  g4pii                  inputproto       mercury                 perl-inline-c                sdl2
-bash                      g4radioactivedecay     intel-daal       mesa                    perl-list-moreutils          sdl2-image
-bcftools                  g4saiddata             intel-gpu-tools  mesa-glu                perl-math-cdf                sdsl-lite
-bdw-gc                    g4tendl                intel-tbb        meshkit                 perl-math-cephes             serf
-beast1                    gapbs                  intel-xed        meson                   perl-module-build            slepc
-beast2                    gapcloser              isl              mesquite                perl-parallel-forkmanager    slurm
-bedops                    gasnet                 jansson          metabat                 perl-parse-recdescent        snappy
-bedtools2                 gatk                   jasper           metaphysicl             perl-pegex                   sniffles
-beforelight               gawk                   jbigkit          metis                   perl-perl6-slurp             snpeff
-benchmark                 gblocks                jdk              microbiomeutil          perl-statistics-descriptive  snptest
-berkeley-db               gcc                    jellyfish        migrate                 perl-sub-uplevel             soapdenovo2
-bertini                   gccmakedep             jemalloc         minced                  perl-test-exception          soapdenovo-trans
-bigreqsproto              gccxml                 jmol             miniaero                perl-test-needs              sofa-c
-binutils                  gconf                  jq               miniamr                 perl-test-warn               somatic-sniper
-bioawk                    gcta                   json-c           miniasm                 perl-uri                     sortmerna
-biobloom                  gdal                   jsoncpp          miniconda2              perl-xml-parser              sowing
-bismark                   gdbm                   json-cwx         miniconda3              perl-yaml-libyaml            spades
-bison                     geant4                 json-glib        minife                  petsc                        sparsehash
-bitmap                    gemmlowp               judy             minigmg                 pixman                       sqlite
-blast2go                  genomefinisher         julia            minimap2                pkgconf                      squid
-blast-plus                geopm                  k8               miniqmc                 pocl                         subversion
-blat                      geos                   kahip            minisign                presentproto                 suite-sparse
-blaze                     gettext                kaks-calculator  minitri                 proj                         sundials
-blis                      gflags                 karma            minivite                protobuf                     superlu
-bliss                     ghostscript-fonts      kbproto          minuit                  py-argparse                  superlu-dist
-blitz                     giflib                 kentutils        mitofates               py-biopython                 swig
-bmake                     git                    kibana           mixcr                   py-bottleneck                sz
-bml                       git-fat-git            kim-api          mkfontdir               py-bx-python                 tabix
-bolt                      git-imerge             kmergenie        mkfontscale             py-certifi                   tar
-bookleaf-cpp              git-lfs                kokkos           mlhka                   py-cffi                      tcl
-boost                     glew                   kraken           mmg                     py-cycler                    tetgen
-boostmplcartesianproduct  glfmultiples           krb5             moab                    py-cython                    tethex
-bowtie                    glib                   krims            modern-wheel            py-dateutil                  texinfo
-bowtie2                   glibmm                 kripke           mongo-cxx-driver        py-docutils                  texlive
-boxlib                    glimmer                kvtree           mono                    py-filelock                  tk
-bpp-core                  glm                    ladot            mosh                    py-functools32               tmux
-bpp-phyl                  global                 lcms             mothur                  py-kiwisolver                tophat
-bpp-seq                   globalarrays           ldc-bootstrap    motif                   py-lit                       trapproto
-bpp-suite                 globus-toolkit         libaio           mount-point-attributes  py-mako                      trilinos
-bracken                   glog                   libarchive       mozjs                   py-mappy                     typhon
-branson                   glpk                   libassuan        mpark-variant           py-markupsafe                udunits2
-breseq                    glproto                libatomic-ops    mpc                     py-matplotlib                unzip
-bridger                   gmake                  libbeagle        mpdecimal               py-mpi4py                    util-macros
-brigand                   gmap-gsnap             libbsd           mpe2                    py-natsort                   varscan
-brotli                    gmime                  libbson          mpest                   py-numexpr                   vcftools
-bsseeker2                 gmodel                 libcerf          mpfr                    py-numpy                     videoproto
-bucky                     gmp                    libcircle        mpibash                 py-pandas                    vsearch
-bumpversion               gmsh                   libconfig        mpich                   py-pillow                    vt
-busco                     gnat                   libdivsufsort    mpifileutils            py-protobuf                  wget
-bwa                       gnupg                  libdrm           mpileaks                py-py2neo                    wtdbg2
-byobu                     gnuplot                libdwarf         mpip                    py-pycparser                 xbitmaps
-bzip2                     gnutls                 libedit          mpir                    py-pygments                  xcb-proto
-cabana                    go                     libevent         mrbayes                 py-pyparsing                 xcb-util
-cairo                     gobject-introspection  libfabric        mscgen                  py-pysam                     xcb-util-image
-cairomm                   go-bootstrap           libffi           msgpack-c               py-pysocks                   xcb-util-keysyms
-callpath                  googletest             libfontenc       mshadow                 py-pytz                      xcb-util-renderutil
-c-blosc                   gotcha                 libfs            msmc                    py-pyyaml                    xcb-util-wm
-cdbfasta                  gource                 libgcrypt        multitail               py-requests                  xerces-c
-cfitsio                   gperf                  libgd            multitime               py-scipy                     xextproto
-cgm                       gperftools             libgeotiff       multiverso              py-setuptools                xkbcomp
-cgns                      gpgme                  libgpg-error     mumps                   py-setuptools-scm            xkbdata
-chapel                    grackle                libgtextutils    munge                   py-six                       xproto
-charmpp                   gradle                 libharu          muparser                py-subprocess32              xtrans
-cityhash                  graph500               libhio           muscle                  python                       xz
-clapack                   graphlib               libiberty        muse                    py-zope-event                yaml-cpp
-clfft                     graphmap               libice           muster                  qhull                        yasm
-clhep                     graphviz               libiconv         mxml                    qjson                        zeromq
-c-lime                    grass                  libidn2          mysql                   qmcpack                      zfp
-clingo                    grib-api               libjpeg-turbo    nano                    qmd-progress                 zlib
-cmake                     gromacs                libksba          nanoflann               qorts                        zsh
-colm                      gsl                    libmaxminddb     nanopb                  qrupdate                     zstd
-compositeproto            gslib                  libmng           nasm                    qt
-cuda                      gtkorvo-atl            libmongoc        nauty                   qt-creator
-curl                      gtkorvo-cercs-env      libmonitor       ncbi-magicblast         qthreads
-czmq                      gtkorvo-dill           libnl            ncbi-rmblastn           quantum-espresso
-damageproto               gtkorvo-enet           libpciaccess     ncurses                 qwt
+abinit                    g4tendl                libbeagle          med                          proj
+abyss                     gapbs                  libbsd             megahit                      protobuf
+ack                       gapcloser              libbson            memaxes                      py-argparse
+activeharmony             gasnet                 libcanberra        memkind                      py-biopython
+acts-core                 gatk                   libcap             mercurial                    py-bottleneck
+adept-utils               gawk                   libceed            mercury                      py-bx-python
+adios                     gblocks                libcerf            mesa                         py-certifi
+adios2                    gcc                    libcheck           mesa-glu                     py-cffi
+adlbx                     gccmakedep             libcint            meshkit                      py-cycler
+adol-c                    gccxml                 libcircle          meson                        py-cython
+aida                      gconf                  libconfig          mesquite                     py-dateutil
+albert                    gcta                   libcroco           metabat                      py-docutils
+alglib                    gdal                   libctl             metaphysicl                  py-filelock
+alsa-lib                  gdbm                   libdivsufsort      metis                        py-functools32
+amg                       geant4                 libdmx             microbiomeutil               py-kiwisolver
+amg2013                   gemmlowp               libdrm             migrate                      py-lit
+ampliconnoise             genomefinisher         libdwarf           minced                       py-mako
+amrex                     geopm                  libeatmydata       miniaero                     py-mappy
+amrvis                    geos                   libedit            miniamr                      py-markupsafe
+andi                      gettext                libelf             miniasm                      py-matplotlib
+angsd                     gflags                 libemos            miniconda2                   py-mpi4py
+ant                       ghostscript-fonts      libepoxy           miniconda3                   py-natsort
+antlr                     giflib                 libevent           minife                       py-numexpr
+ants                      git                    libevpath          minigmg                      py-numpy
+applewmproto              git-fat-git            libfabric          minimap2                     py-pandas
+appres                    git-imerge             libffi             miniqmc                      py-pillow
+apr                       git-lfs                libffs             minisign                     py-protobuf
+apr-util                  glew                   libfontenc         minitri                      py-py2neo
+aragorn                   glfmultiples           libfs              minivite                     py-pycparser
+argobots                  glib                   libgcrypt          minuit                       py-pygments
+argp-standalone           glibmm                 libgd              mitofates                    py-pyparsing
+argtable                  glimmer                libgeotiff         mixcr                        py-pysam
+armadillo                 glm                    libgit2            mkfontdir                    py-pysocks
+arm-forge                 global                 libgpg-error       mkfontscale                  py-pytz
+arpack-ng                 globalarrays           libgpuarray        mlhka                        py-pyyaml
+arrow                     globus-toolkit         libgridxc          mmg                          py-requests
+asciidoc                  glog                   libgtextutils      moab                         py-scipy
+asciidoctor               glpk                   libharu            modern-wheel                 py-setuptools
+aspcud                    glproto                libhio             mongo-cxx-driver             py-setuptools-scm
+aspect                    gmake                  libiberty          mono                         py-six
+aspell                    gmap-gsnap             libice             mosh                         py-subprocess32
+aspell6-de                gmime                  libiconv           mothur                       python
+aspell6-en                gmodel                 libidn2            motif                        py-zope-event
+aspell6-es                gmp                    libint             mount-point-attributes       qhull
+aspera-cli                gmsh                   libjpeg            mozjs                        qjson
+assimp                    gnat                   libjpeg-turbo      mpark-variant                qmcpack
+astral                    gnupg                  libksba            mpc                          qmd-progress
+astyle                    gnuplot                liblbxutil         mpdecimal                    qorts
+atlas                     gnutls                 liblockfile        mpe2                         qrupdate
+at-spi2-core              go                     libmatheval        mpest                        qt
+augustus                  gobject-introspection  libmaxminddb       mpfr                         qt-creator
+autoconf                  go-bootstrap           libmng             mpibash                      qthreads
+automake                  googletest             libmongoc          mpich                        quantum-espresso
+axel                      gotcha                 libmonitor         mpifileutils                 qwt
+bamtools                  gource                 libnbc             mpileaks                     r
+bash                      gperf                  libnl              mpip                         r3d
+bash-completion           gperftools             libnova            mpir                         racon
+bcftools                  gpgme                  libnsl             mrbayes                      ragel
+bdw-gc                    grackle                libogg             mscgen                       raja
+beast1                    gradle                 liboldx            msgpack-c                    randfold
+beast2                    graph500               libpcap            mshadow                      random123
+bedops                    graphlib               libpciaccess       msmc                         randrproto
+bedtools2                 graphmap               libpfm4            multitail                    range-v3
+beforelight               graphviz               libpipeline        multitime                    rankstr
+benchmark                 grass                  libplist           multiverso                   rapidjson
+berkeley-db               grib-api               libpng             mumps                        r-assertthat
+bertini                   gromacs                libpsl             munge                        ravel
+bigreqsproto              gsl                    libpthread-stubs   muparser                     raxml
+binutils                  gslib                  libquo             muscle                       ray
+bioawk                    gtkorvo-atl            libseccomp         muse                         r-base64enc
+biobloom                  gtkorvo-cercs-env      libsharp           muster                       r-biocgenerics
+bismark                   gtkorvo-dill           libsigcpp          mxml                         r-biom-utils
+bison                     gtkorvo-enet           libsigsegv         mysql                        rclone
+bitmap                    gts                    libsm              nano                         r-crayon
+blast2go                  guile                  libsodium          nanoflann                    r-dbi
+blast-plus                h5part                 libspatialindex    nanopb                       rdma-core
+blat                      h5utils                libspatialite      nasm                         rdp-classifier
+blaze                     h5z-zfp                libsplash          nauty                        re2c
+blis                      hadoop                 libssh             ncbi-magicblast              readfq
+bliss                     hapcut2                libssh2            ncbi-rmblastn                readline
+blitz                     hapdip                 libsvm             nccl                         recordproto
+bmake                     haploview              libszip            nccmp                        redis
+bml                       harfbuzz               libtasn1           ncdu                         redset
+bolt                      hdf                    libtermkey         ncftp                        rempi
+bookleaf-cpp              hdf5                   libtiff            nco                          rename
+boost                     help2man               libtirpc           ncurses                      rendercheck
+boostmplcartesianproduct  hepmc                  libtool            ncview                       renderproto
+bowtie                    heppdt                 libunistring       ndiff                        resourceproto
+bowtie2                   highfive               libunwind          nek5000                      r-expint
+boxlib                    highwayhash            libusb             nekbone                      rhash
+bpp-core                  hiop                   libusbmuxd         nekcem                       rlwrap
+bpp-phyl                  hisat2                 libuuid            nektar                       rmats
+bpp-seq                   hisea                  libuv              nest                         rna-seqc
+bpp-suite                 hmmer                  libvorbis          netcdf                       rngstreams
+bracken                   hpctoolkit             libvterm           netcdf-cxx                   rocksdb
+branson                   hpcviewer              libwebsockets      netcdf-cxx4                  routino
+breseq                    hpgmg                  libwindowswm       netcdf-fortran               rpcsvc-proto
+bridger                   hpl                    libx11             netgauge                     r-rcpp
+brigand                   hpx                    libxau             netgen                       r-rjava
+brotli                    hsakmt                 libxaw             netlib-lapack                r-rmysql
+bsseeker2                 htop                   libxaw3d           netlib-scalapack             rsbench
+bucky                     htslib                 libxc              netlib-xblas                 rstart
+bumpversion               httpie                 libxcb             nettle                       rsync
+busco                     hugo                   libxcomposite      nextflow                     ruby
+bwa                       hunspell               libxcursor         nfft                         ruby-ronn
+byobu                     hwloc                  libxdamage         nghttp2                      rust
+bzip2                     hybpiper               libxdmcp           nginx                        sailfish
+cabana                    hydra                  libxevie           ngmlr                        salmon
+cairo                     hydrogen               libxext            ninja                        samtools
+cairomm                   hyphy                  libxfixes          ninja-fortran                scons
+callpath                  hypre                  libxfont           nix                          scotch
+c-blosc                   iceauth                libxfont2          nlohmann-json                scrnsaverproto
+cdbfasta                  icet                   libxfontcache      nlopt                        sdl2
+cfitsio                   ico                    libxft             nmap                         sdl2-image
+cgal                      icu4c                  libxi              nnvm                         sdsl-lite
+cgm                       id3lib                 libxinerama        node-js                      serf
+cgns                      idba                   libxkbcommon       npb                          silo
+chapel                    igraph                 libxkbfile         npm                          slepc
+charmpp                   ilmbase                libxkbui           npth                         slurm
+cityhash                  imake                  libxml2            nspr                         snappy
+clapack                   imp                    libxmu             numactl                      sniffles
+clfft                     impute2                libxp              numdiff                      snpeff
+clhep                     infernal               libxpm             nvptx-tools                  snptest
+c-lime                    inputproto             libxpresent        nwchem                       soapdenovo2
+clingo                    intel-daal             libxprintapputil   nyancat                      soapdenovo-trans
+cmake                     intel-gpu-tools        libxprintutil      occa                         sofa-c
+colm                      intel-mkl              libxrandr          oce                          somatic-sniper
+commons-lang              intel-mpi              libxrender         oclint                       sortmerna
+commons-logging           intel-pin              libxres            oclock                       sowing
+compositeproto            intel-tbb              libxscrnsaver      octave                       spades
+cuda                      intel-xed              libxshmfence       octave-optim                 sparsehash
+curl                      intltool               libxslt            octave-splines               sqlite
+czmq                      ior                    libxsmm            octave-struct                squid
+damageproto               iozone                 libxstream         octopus                      subversion
+dbus                      iperf2                 libxt              oniguruma                    suite-sparse
+dealii                    iperf3                 libxtrap           openblas                     sundials
+diffutils                 isaac                  libxtst            openfoam-com                 superlu
+dmd                       isaac-server           libxv              openjdk                      superlu-dist
+dmlc-core                 isl                    libxvmc            openjpeg                     swig
+dmxproto                  itstool                libxxf86dga        openmpi                      sz
+docbook-xml               itsx                   libxxf86misc       openpa                       tabix
+docbook-xsl               jackcess               libxxf86vm         openssl                      tar
+double-conversion         jags                   libyaml            otf                          tcl
+doxygen                   jansson                libyogrt           otf2                         tetgen
+dri2proto                 jasper                 libzip             p4est                        tethex
+dri3proto                 jbigkit                lighttpd           pal                          texinfo
+dtcmp                     jdk                    likwid             paml                         texlive
+dyninst                   jellyfish              linkphase3         pandaseq                     tk
+eccodes                   jemalloc               linux-headers      pango                        tmux
+editline                  jmol                   listres            papi                         tophat
+eigen                     jq                     llvm               papyrus                      trapproto
+elfutils                  json-c                 llvm-openmp-ompt   parallel                     trilinos
+environment-modules       jsoncpp                lmdb               parallel-netcdf              typhon
+erfa                      json-cwx               lmod               parmetis                     udunits2
+evieext                   json-glib              lm-sensors         pbbam                        unibilium
+exmcutils                 judy                   lndir              pcre                         unzip
+exonerate                 julia                  log4cplus          pcre2                        util-macros
+expat                     k8                     log4cxx            perl                         varscan
+exuberant-ctags           kahip                  loki               perl-capture-tiny            vcftools
+fastphase                 kaks-calculator        lordec             perl-data-dumper             videoproto
+fastqc                    kallisto               lrslib             perl-encode-locale           vsearch
+fastqvalidator            karma                  lrzip              perl-exporter-tiny           vt
+fasttree                  kbproto                ltrace             perl-extutils-makemaker      wget
+fastx-toolkit             kdiff3                 lua                perl-extutils-pkgconfig      windowswmproto
+fftw                      kentutils              lua-bitlib         perl-file-copy-recursive     wtdbg2
+findutils                 kibana                 lua-jit            perl-file-sharedir-install   xbitmaps
+fixesproto                kim-api                lua-lpeg           perl-gd                      xcb-proto
+flatbuffers               kmergenie              lua-luafilesystem  perl-gd-graph                xcb-util
+flex                      kokkos                 lua-luaposix       perl-gdgraph-histogram       xcb-util-image
+flux-core                 kraken                 lua-mpack          perl-gd-text                 xcb-util-keysyms
+flux-sched                krb5                   luit               perl-http-date               xcb-util-renderutil
+fmt                       krims                  lulesh             perl-inline                  xcb-util-wm
+fontcacheproto            kripke                 lwgrp              perl-inline-c                xcmiscproto
+fontconfig                kvtree                 lz4                perl-list-moreutils          xerces-c
+fontsproto                ladot                  lzma               perl-math-cdf                xextproto
+fonttosfnt                lammps                 lzo                perl-math-cephes             xf86dgaproto
+font-util                 last                   m4                 perl-module-build            xf86driproto
+font-xfree86-type1        lastz                  mad-numdiff        perl-parallel-forkmanager    xf86miscproto
+fpc                       latte                  mafft              perl-parse-recdescent        xf86vidmodeproto
+fqtrim                    launchmon              magics             perl-pegex                   xineramaproto
+freebayes                 lazyten                magma              perl-perl6-slurp             xkbcomp
+freetype                  lbxproxy               makedepend         perl-statistics-descriptive  xkbdata
+freexl                    lbzip2                 mallocmc           perl-sub-uplevel             xorg-server
+fslsfonts                 lcals                  manta              perl-test-exception          xproto
+fstobdf                   lcms                   mapserver          perl-test-needs              xproxymanagementprotocol
+fyba                      ldc-bootstrap          mariadb            perl-test-warn               xtrans
+fzf                       legion                 mariadb-c-client   perl-uri                     xz
+g4abla                    lemon                  masa               perl-xml-parser              yaml-cpp
+g4emlow                   leveldb                matio              perl-yaml-libyaml            yasm
+g4ensdfstate              lftp                   maven              petsc                        zeromq
+g4ndl                     libaec                 maverick           pixman                       zfp
+g4neutronxs               libaio                 mawk               pkgconf                      zip
+g4photonevaporation       libapplewm             mbedtls            pngwriter                    zlib
+g4pii                     libarchive             mc                 pocl                         zsh
+g4radioactivedecay        libassuan              mcl                presentproto                 zstd
+g4saiddata                libatomic-ops          mdtest             printproto
 ```
+
+## Extra packages
+
+We also provides several extra source packages that have not been supported by spack: [link](https://share.weiyun.com/5Nw8dB4).
 
 ## Donate
 
